@@ -2,6 +2,9 @@ package com.boyiz.queue;
 
 import java.util.Scanner;
 
+/**
+ * 数组模拟环形队列
+ */
 public class CircleArrayQueueDemo {
     public static void main(String[] args) {
         CircleArrayQueue queue = new CircleArrayQueue(3);//最大长度为3，实际只能存放两个，空出一个空间作为约定。

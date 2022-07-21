@@ -7,7 +7,7 @@ public class SparseArray {
      */
     public static void main(String[] args) {
         //创建一个原始的二维数组
-        int chessArray[][] = new int[11][11];
+        int[][] chessArray = new int[11][11];
         chessArray[1][2] = 1;
         chessArray[2][3] = 2;
         //遍历输出原始数组
@@ -32,7 +32,7 @@ public class SparseArray {
         System.out.println("非零元素个数为：" + nonZero);
 
         //创建稀疏数组
-        int sparseArray[][] = new int[nonZero + 1][3];
+        int[][] sparseArray = new int[nonZero + 1][3];
         //稀疏数组初始化赋值
         sparseArray[0][0] = 11;
         sparseArray[0][1] = 11;
