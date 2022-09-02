@@ -1,6 +1,8 @@
 package com.boyiz.sort;
 
+import java.text.SimpleDateFormat;
 import java.util.Arrays;
+import java.util.Date;
 
 /**
  * @ClassName BubbleSort
@@ -12,12 +14,13 @@ import java.util.Arrays;
 public class BubbleSort {
     public static void main(String[] args) {
         int[] arr = {3, 9, -1, 10, -2};
+        bubbleSort(arr);
         System.out.println(Arrays.toString(arr));
 
-        //测试80000个数据
+        //测试80000个数据 9s
 //        int[] arr = new int[80000];
 //        for (int i = 0; i < arr.length; i++) {
-//            arr[i] = (int) (Math.random() * 80000);
+//            arr[i] = (int) (Math.random() * 8000000);
 //        }
 //        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 //        Date date1 = new Date();
