@@ -31,6 +31,7 @@ public class FibonacciSearch {
         int mid = 0; //存放 mid 值
         int f[] = fib(); //获取到斐波那契数列
         // 获取到斐波那契分割数值的下标
+        // 获取斐波那契数列中等于或者第一个大于数组长度的数
         while (high > f[k] - 1) {
             k++;
         }
